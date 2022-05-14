@@ -1,0 +1,56 @@
+/* ====  HOME PAGE  ==== */
+
+@media screen and (max-width:600px) {
+    .content h1 {
+         font-size: 30px;
+         text-align: center;
+     }
+     .buttons0 {
+         width: 100px;
+         height: 30px;
+         font-size: 12px;
+     }
+}
+
+ /* ====  DESPRE NOI PAGE  ==== */
+
+ @media screen and (max-width:1150px) {
+       .main2 h1{
+            font-size: 30px;
+       }
+
+       .content2 h2 {
+           font-size: 20px;
+       }
+
+       .content2 h3 {
+        font-size: 25px;
+    }
+
+    .content2 {
+        line-height: 2.1rem;
+        margin-top: 2rem;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+     .container {
+         flex-wrap: wrap;
+     }
+     .card {
+         width: 80%;
+        margin-top: 1rem;
+     }
+
+     .content2 {
+         margin-bottom: -2.5rem;
+     }
+ }
+
+ @media screen and (max-width: 450px) {
+     
+ }
