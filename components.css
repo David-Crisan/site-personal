@@ -65,3 +65,15 @@
     margin: auto;
     line-height: 1.5rem;
 }
+
+.content3 h4 {
+    font-size: 20px;
+    color: floralwhite;
+    font-weight: 600; 
+    margin-bottom: 0.5rem;
+}
+
+.link-uri a {
+    text-decoration: none;
+    color: floralwhite;
+}
