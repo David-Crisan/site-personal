@@ -87,8 +87,8 @@
  }
 
  .info h1 {
-     color:  floralwhite;
-     font-weight: 600;   
+     color:   black;
+     font-weight: 700;   
      font-size: 30px;
      text-align: center;
      margin-bottom: 2rem;
@@ -97,11 +97,14 @@
 
  .contact-links a {
     text-decoration: none;
-    color: floralwhite;
+    color: black;
     font-size: 20px;
+    font-weight: 600;
  }
 
  .contact-links p {
-     color: floralwhite;
+     color:  black;
      font-size: 20px;
+     z-index: 2;
+     font-weight: 600;
  }

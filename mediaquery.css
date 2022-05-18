@@ -193,6 +193,9 @@
     .contact-links a {
         font-size: 16px;
     }
+    .contact-links  {
+         line-height: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 390px) {

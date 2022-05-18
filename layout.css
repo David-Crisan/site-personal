@@ -117,3 +117,19 @@
      align-items: center;
      line-height: 2rem;
  }
+
+ .main3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(assets/dbc565b554f132d48e34b2cbccb9826f.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .body3 {
+      background: rgba(3, 85, 6, 0.8);
+      mix-blend-mode: overlay;
+      z-index: 1;
+  }
+
+   
