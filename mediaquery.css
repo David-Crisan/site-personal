@@ -110,6 +110,12 @@
     }
 }
 
+@media screen and (max-width:750px) {
+    .footer p {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width:590px) {
     .content3 {
         width: 80%;
@@ -124,11 +130,77 @@
         height: 170px;
         line-height: 2rem;
     }
+
+    .footer p {
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width:350px) {
     .content3 {
-        height: 180px;
+        height: 175px;
         line-height: 1.6rem;
+    }
+}
+
+@media screen and (max-width:325px) {
+    .content3 {
+        height: 199px;
+        line-height: 1.6rem;
+    }
+}
+
+/* ====  CONTACTATI-NE PAGE  ==== */
+
+@media screen and (max-width:950px) {
+    .info {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contact-links a {
+        font-size: 15px;
+    }
+    .contact-links p {
+        font-size: 15px;
+    }
+    .info h1 {
+        font-size: 25px;
+    }
+    .info {
+        height: 230px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .contact-links a {
+        font-size: 13px;
+    }
+
+    .info {
+        height: 250px;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .info {
+        height: 230px;
+        width: 75%;
+    }
+    .contact-links a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .info {
+        height: 200px;
+        width: 75%;
+    }
+    .contact-links a {
+        font-size: 13px;
     }
 }
