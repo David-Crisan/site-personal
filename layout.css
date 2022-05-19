@@ -127,9 +127,9 @@
   }
 
   .body3 {
-      background: rgba(3, 85, 6, 0.8);
-      mix-blend-mode: overlay;
-      z-index: 1;
-  }
+    background: rgba(3, 85, 6, 0.8);
+    mix-blend-mode: overlay;
+    z-index: 1;
+}
 
    
