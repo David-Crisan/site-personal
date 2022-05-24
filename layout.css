@@ -72,64 +72,76 @@
 /* ====  CONTACTATI-NE PAGE  ==== */
 
  .body3 {
-     display: flex;
-     flex-direction: column;
-     min-height: 100vh;
+      
+     background-color: black;
  }
+ 
+#overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
 
- .main3 {
-     display: flex;
-     flex-direction: column; 
-     flex-grow: 1;
- }
+form {
+    max-width: 650px;
+    width: 90%;
+    background: rgb(249, 244, 248);
+    height: 500px;
+    border-radius: 3px;
+} 
 
- .info {
-     width: 40%;
-     margin: auto;
-     background-color: rgba(3, 85, 6, 0.8);
-     height: 350px;
-     border-radius: 2%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
- }
+.text-form {
+    padding: 30px;
+}
 
- .info-wrapper {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 90vh;
- }
+.labell {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1.5px solid grey;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-bottom: 2.2px solid rgba(3, 85, 6, 0.8);
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(3, 85, 6, 0.8);
+}
+
+.submit-button {
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    width: 90%;
+    max-width: 230px;
+    background: rgba(3, 85, 6, 0.8);
+    border-radius: 3px;
+    cursor: pointer;
+}
 
  .footer {
     background-color: rgba(3, 85, 6, 0.8);
-    height: 60px;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
    
  }
 
- .contact-links {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     line-height: 2rem;
- }
-
- .main3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(assets/dbc565b554f132d48e34b2cbccb9826f.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  .body3 {
-    background: rgba(3, 85, 6, 0.8);
-    mix-blend-mode: overlay;
-    z-index: 1;
-}
-
+ 
    

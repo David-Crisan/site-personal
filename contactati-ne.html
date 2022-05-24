@@ -13,18 +13,31 @@
  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body class="body3">
-     <div class="main3">
-       <div class="info-wrapper">
-       <div class="info">
+    <div id="overlay">
+      <form>
+        <div class="text-form">
          <h1>Contactati-ne</h1>
-         <div class="contact-links">
-           <a href="mailto:davidcrisanandrei.com@gmail.com">davidcrisanandrei.com@gmail.com</a>
-           <p>sau</p>
-           <a href="tel:0773878488">0773878488</a>
-         </div>
-         </div>
-       </div>
-     </div>
+      
+         <label class="labell" for="name">Nume:</label>
+         <input type="text" id="name" placeholder="Numele dumneavoastra" required>
+         <small class="error"></small>
+
+         <label class="labell" for="email">Email:</label>
+         <input type="text" id="email" placeholder="Email-ul dumneavoastra" required>
+         <small class="error"></small>
+
+         <label class="labell" for="message">Mesaj sau sunati la 0773878488:</label>
+         <textarea type="text" id="message" rows="6" placeholder="Mesajul dumneavoastra" required></textarea>
+         <small class="error"></small>
+
+         <div class="submit-button">
+          <input type="submit" value="Trimite mesaj">
+        </div>
+        </div>
+        </div>
+      </form>
+        
+    </div>
      <div class="footer">
        <p>All rights reserved <script>document.write(new Date().getFullYear())</script> | Contact @davidcrisanandrei.com@gmail.com</p>
      </div>
